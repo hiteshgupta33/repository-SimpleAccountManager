@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <account-authenticator xmlns:android="http://schemas.android.com/apk/res/android"
-                       android:accountType="com.resmed.monaco"
+                       android:accountType="com.hitesh.androidAccMan"
                        android:icon="@android:drawable/ic_dialog_map"
                        android:smallIcon="@android:drawable/ic_dialog_map"
                        android:label="@string/app_name" />

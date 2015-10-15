@@ -152,7 +152,7 @@ public class AuthenticatorActivity extends android.accounts.AccountAuthenticator
 
                                         final String authtoken = bundle.getString(AccountManager.KEY_AUTHTOKEN);
                                         showMessage((authtoken != null) ? "SUCCESS!\ntoken: " + authtoken : "FAIL");
-                                        Log.d("Resmed Acc Manager", "GetToken Bundle is " + bundle);
+                                        Log.d("Hitesh Acc Manager", "GetToken Bundle is " + bundle);
                                     } catch (Exception e) {
                                         e.printStackTrace();
                                         showMessage(e.getMessage());
