@@ -1,0 +1,85 @@
+<resources>
+  <string name="app_name">Monaco</string>
+  <string name="action_settings">Settings</string>
+
+  <!-- Permission label -->
+    <string
+      name="permission_am_auth_password">access to passwords for accounts</string>
+  <!-- Permission description -->
+    <string
+      name="permission_auth_password">Allows applications direct access to the passwords for all the account(s) you have configured.</string>
+
+  <!-- Permission label -->
+    <string
+      name="get_configured_accounts">view configured accounts</string>
+  <!-- Permission description -->
+    <string
+      name="permission_usernames">Allows applications to see the usernames (email addresses) of
+        all the account(s) you have configured.</string>
+    <string
+      name="notification_login_error">Touch to sign in</string>
+
+  <!-- Title string for Login activity-->
+    <string
+      name="ui_activity_title">Sign-in</string>
+  <!-- Message shown in progress dialog while app connects to the server -->
+    <string
+      name="ui_activity_authenticating">Authenticating\u2026</string>
+
+  <!-- AuthenticatorActivity -->
+  <skip />
+  <!-- Label above username EditText -->
+    <string
+      name="login_activity_username_label">Username</string>
+  <!-- Label above password EditText -->
+    <string
+      name="login_activity_password_label">Password</string>
+  <!-- Button to sign in after entering username and password -->
+    <string
+      name="login_activity_ok_button">Sign in</string>
+
+  <!-- Message shown in dialog if the username or password is invalid. -->
+    <string
+      name="login_activity_loginfail_text_both">The username or password isn\'t valid. Please try again. </string>
+  <!-- Message shown in dialog if the password is invalid -->
+    <string
+      name="login_activity_loginfail_text_pwonly">You entered the wrong password or your account has changed.
+        Please re-enter your password.</string>
+  <!-- Message shown in dialog to prompt the user for their password -->
+    <string
+      name="login_activity_loginfail_text_pwmissing">Type the password for this account.</string>
+  <!--
+      Message shown if the provided account doesn't support the current
+      activity.
+  -->
+    <string
+      name="login_activity_newaccount_text">Sign in</string>
+
+  <!-- Button that takes the user to the "sign in" screen -->
+    <string
+      name="sign_in_button_label">Sign in</string>
+  <!-- Button for going to the previous screen or step -->
+    <string
+      name="back_button_label">Back</string>
+  <!-- Button to cancel the current operation -->
+    <string
+      name="cancel_button_label">Cancel</string>
+  <!-- Button to get Auth Token -->
+    <string
+      name="retrieve_auth_token">Get Auth Token</string>
+  <!-- Button to delete All Accounts -->
+    <string
+      name="delete_all">Delete All Accounts</string>
+    <string
+      name="profile_action">Sample profile</string>
+    <string
+      name="view_profile">View Profile</string>
+
+  <string name="header_account_type">SRN</string>
+
+  <string name="label_name">Name</string>
+  <string name="label_phone_home">Home Phone</string>
+  <string name="label_phone_mobile">Mobile Phone</string>
+  <string name="label_phone_work">Work Phone</string>
+  <string name="label_email">Email</string>
+</resources>
